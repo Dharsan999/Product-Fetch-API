@@ -59,12 +59,7 @@ const fetchData = async () => {
                 </div>
             </div>
             `;
-        // <p>${product.description}</p>
         productContainer.appendChild(productCard);
-    })
-    // return  products;
-}
+    })}
 
 fetchData()
-// console.log(data);
-
